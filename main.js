@@ -52,7 +52,7 @@
   render(ctx, worldRenderer);
 
   // On mouse wheel, zoom centered about the mouse coordinates.
-  easel.addEventListener('mousewheel', e => {
+  easel.addEventListener('wheel', e => {
     // Amount to scale.
     const amnt = e.deltaY < 0 ? 1.1 : .9;
 
@@ -64,6 +64,9 @@
 
     // Render the new scene.
     render(ctx, worldRenderer);
+
+    // Prevent the default wheel action of scrolling the whole page.
+    e.preventDefault();
   });
 
   // Request an animation frame and render the world/scene.
