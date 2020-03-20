@@ -1,0 +1,17 @@
+{
+  "name": "zoom-on-a-point",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server ./ -p 8080"
+  },
+  "author": "Ben Botto",
+  "license": "ISC",
+  "dependencies": {
+    "gl-matrix": "^3.2.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.1"
+  }
+}

@@ -1,0 +1,19 @@
+/* Basic reset. */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Wrapper for the canvs. */
+#content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The canvas. */
+#easel {
+  border: 1px solid black;
+}
