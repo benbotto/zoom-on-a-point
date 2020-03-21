@@ -1,4 +1,4 @@
-# zomm-on-a-point
+# zo0m-on-a-point
 
 Example project to demonstrate how to zoom at a point in a scene.
 
